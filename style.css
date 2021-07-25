@@ -4,6 +4,7 @@
 
   --textwhite: hsl(0, 0%, 100%);
   --softVoilet: hsl(277, 64%, 61%);
+  --softVoiletModified: hsl(277, 71%, 44%);
   --mainParagraph: hsla(0, 0%, 100%, 0.75);
   --secondaryParagraph: hsla(0, 0%, 100%, 0.6);
 
@@ -47,7 +48,7 @@ img {
 }
 
 .overlay {
-  background-color: var(--softVoilet);
+  background-color: var(--softVoiletModified);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -108,7 +109,7 @@ h1>span {
   color: hsl(228, 45%, 44%);
 }
 @media screen and (min-width: 769px) and (max-width:1024px) {
-  section {
+  main {
     max-height: 100vh;
   }
   .main-container {
@@ -157,11 +158,11 @@ h1>span {
 }
 
 @media screen and (min-width: 1025px) {
-  section {
+  main {
     max-height: 100vh;
   }
   .main-container {
-    margin: 100px 200px;
+    margin: 150px 150px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
